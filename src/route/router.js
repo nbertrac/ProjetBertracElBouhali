@@ -4,8 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //Css (à faire)
 //import "../css/style.css";
 
-//Loader (à modifier)
+//Loader
 import HomeLoader from "../components/loader/homeloader";
+import FaqLoader from "../components/loader/faqloader";
+import DetailsLoader from "../components/loader/detailsloader";
 
 //Layout (à modifier)
 import LayoutNav from "../layout/layoutNav";
@@ -25,8 +27,12 @@ const Routeur = () => (
         <Suspense fallback={<HomeLoader />}>
           <Route exact path="/" component={Home} />
         </Suspense>
-        <Route path="/faq" component={Faq} />
-        <Route path="/details" component={Details} />
+        <Suspense fallback={<FaqLoader />}>
+          <Route path="/faq" component={Faq} />
+        </Suspense>
+        <Suspense fallback={<DetailsLoader />}>
+          <Route path="/details" component={Details} />
+        </Suspense>
         <Route path="*" component={Lost} />
       </Switch>
     </LayoutNav>
