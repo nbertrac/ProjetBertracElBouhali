@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //import "../css/style.css";
 
 //Loader (à modifier)
-import ThreeDots from "../components/loader/threedots";
+import HomeLoader from "../components/loader/homeloader";
 
 //Layout (à modifier)
 import LayoutNav from "../layout/layoutNav";
@@ -19,18 +19,18 @@ const Faq = React.lazy(() => import("../pages/faq"));
 const Details = React.lazy(() => import("../pages/details"));
 
 const Routeur = () => (
-  <Suspense fallback={<ThreeDots />}>
-    <Router>
-      <LayoutNav>
-        <Switch>
+  <Router>
+    <LayoutNav>
+      <Switch>
+        <Suspense fallback={<HomeLoader />}>
           <Route exact path="/" component={Home} />
-          <Route path="/faq" component={Faq} />
-          <Route path="/details" component={Details} />
-          <Route path="*" component={Lost} />
-        </Switch>
-      </LayoutNav>
-    </Router>
-  </Suspense>
+        </Suspense>
+        <Route path="/faq" component={Faq} />
+        <Route path="/details" component={Details} />
+        <Route path="*" component={Lost} />
+      </Switch>
+    </LayoutNav>
+  </Router>
 );
 
 export default Routeur;

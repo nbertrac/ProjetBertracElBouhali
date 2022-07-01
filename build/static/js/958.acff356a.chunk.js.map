@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/958.acff356a.chunk.js","mappings":"8LAAe,SAASA,IACtB,OACE,+BACE","sources":["pages/faq.js"],"sourcesContent":["export default function Faq() {\n  return (\n    <>\n      <h1>FAQ</h1>\n    </>\n  );\n}\n"],"names":["Faq"],"sourceRoot":""}
