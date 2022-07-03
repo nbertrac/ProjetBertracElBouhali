@@ -5,11 +5,10 @@ import Destination from "../compoments/destination/Destination";
 export default function home() {
   return (
     <div>
-    <div>
-      <Navbar></Navbar>
-     
+      <div>
+        <Navbar></Navbar>
+      </div>
+      <Destination></Destination>
     </div>
-     <Destination></Destination>
-     </div>
   );
 }

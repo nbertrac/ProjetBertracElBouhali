@@ -2,7 +2,7 @@ import React from "react";
 import "./navbar.css";
 import styled from "styled-components";
 import { IconContext } from "react-icons";
-import {GrSearch} from "react-icons/gr";
+import { GrSearch } from "react-icons/gr";
 
 const Input = styled.input`
   height: 40px;
@@ -27,8 +27,11 @@ export default function Navbar() {
             type="text"
             placeholder="Recherchez des destination..."
           />
-          <IconContext.Provider value={{ color: "blue" , className:""}}>
-          <Button> <GrSearch/></Button>
+          <IconContext.Provider value={{ color: "blue", className: "" }}>
+            <Button>
+              {" "}
+              <GrSearch />
+            </Button>
           </IconContext.Provider>
         </div>
         <div className="topRight">
