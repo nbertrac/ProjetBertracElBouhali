@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkprojetbertracelbouhali=self.webpackChunkprojetbertracelbouhali||[]).push([[568],{568:function(e,r,n){n.r(r),n.d(r,{default:function(){return u}});var t=n(184);function u(){return(0,t.jsx)(t.Fragment,{children:(0,t.jsx)("h1",{children:"Home"})})}}}]);
-//# sourceMappingURL=568.51601e43.chunk.js.map

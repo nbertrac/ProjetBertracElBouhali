@@ -1,14 +1,20 @@
-import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 export default function Lost() {
   let location = useLocation();
 
   return (
-    <div>
-      <h3>
-        No match for <code>{location.pathname}</code>
-      </h3>
-    </div>
+    <>
+      <h1>Page introuvable</h1>
+
+      <Link to="/" title="Revenir sur la page principale">
+        Retour sur la page d&#39;accueil
+      </Link>
+      <br />
+
+      <code>
+        La page : <b>{location.pathname}</b> est introuvable
+      </code>
+    </>
   );
 }
