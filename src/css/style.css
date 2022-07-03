@@ -5,12 +5,13 @@
   overflow-x: hidden;
 }
 
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 #root {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Footer */
@@ -40,14 +41,14 @@ a:hover {
 
 /* Details */
 .details {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  align-items: center;
 }
 
-.detailhead{
-    margin-top: 1em;
+.detailhead {
+  margin-top: 1em;
 }
 
 .detailprice {
@@ -81,6 +82,6 @@ a:hover {
   margin-top: 1em;
 }
 
-.detaildescription img{
-    width: 100%;
+.detaildescription img {
+  width: 100%;
 }
