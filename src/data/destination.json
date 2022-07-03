@@ -1,0 +1,38 @@
+{
+    "0":{
+        "titre" : "Observatoire de la nature sur une île isolée",
+        "note" : "4,71",
+        "location" : "Badachro,Ecosse,Royaume-Uni",
+        "image" : "/img/1.webp",
+        "capacité": "2 voyageurs - 1 chambre - 1 lit - 1 salle de bain",
+        "prix": "174",
+        "description": "L'île Dry est située dans les eaux tranquilles de Gair Loch (littéralement le «loch court»), où les Mackenzies vivent, pêchent et cultivent depuis le 15e siècle. Le propriétaire actuel de Dry Island, Ian McWhinney, est un descendant des Mackenzy et il pêche encore des mollusques et des crustacés de l'île. Il est très heureux d'emmener les visiteurs récolter les langoustines, les crabes et les homards squats de ses fouines.Les eaux chaudes du Gulf Stream créent un climat tempéré qui attire une faune abondante, y compris les oiseaux de mer, les loutres et les baleines qui se régalent de la richesse saisonnière de la mer. Le loch est entouré au sud par les montagnes spectaculaires de Torridon, y compris les monts Beinn Alligin et Slioch (3215 pieds de haut), l'une des plus belles montagnes d'Écosse.Inverness est la ville la plus proche de Dry Island et est à environ 90 minutes en voiture. De l'autre côté de la mer se trouve Skye, l'île de Rona et les Hébrides intérieures et des excursions en bateau vers les îles peuvent être réservées pendant votre séjour. Le village de Badachro sur les rives de Gair Loch dispose d'un beau pub avec un restaurant dans lequel dîner et se détendre après une journée dans les collines.Quoi que vous vouliez vous détendre et vous ressourcer, Dry Island a tellement à offrir."
+    },
+    "1":{
+        "titre" : "The Arctic Hideaway - Dosette à faible teneur en gras -1 lit double",
+        "note" : "4,80",
+        "location" : "Gildeskål, Nordland, Norvège",
+        "image" : "/img/2.jpg",
+        "capacité": "2 voyageurs-1 chambre-1 lit-1 salle de bain partagée",
+        "prix": "189",
+        "description": "On dit qu'une seule personne vit sur l'île, et quel que soit le jour, cela pourrait être vrai. En revanche, l'île compte plusieurs habitants à temps partiel ou saisonniers qui y habitent. Cela dit, il n'y a pas de cafés sur l'île (à l'exception des gaufres du samedi à la maison publique), il n'y a pas de supermarchés, ni de bars ou de discothèques. Il n'y a ni télévision ni radio. La nature, au contraire, est la seule source de distraction. Et, comme vous le verrez à votre arrivée, dans un endroit aussi éloigné que celui-ci, cela peut être une véritable distraction!Si vous voulez, nous pouvons vous conduire dans un état de détente totale. Les excursions peuvent être faites dans les îles voisines, les excursions de pêche, l'observation des oiseaux, la cueillette de coquillages, l'escalade, voire la randonnée jusqu' au plus beau sommet de montagne (990 m) de la région. Nous devons connaître vos souhaits dès que possible pour vous fournir des options, des prix et des réservations pour toutes les activités. Mais apporter un appareil photo et un bon livre sera également une excellente option.Pour résumer: Ici sur l'île, il n'y a pas de magasins et pas de voitures. Ici, il n'y a pas de stress et pas d'animaux dangereux."
+    },
+    "2":{
+        "titre" : "Lighthouse Apartment Tajer",
+        "note" : "4,60",
+        "location" : "Sali, Croatia, Comitat de Zadar, Croatie",
+        "image" : "/img/3.webp",
+        "capacité": "4 voyageurs-2 chambres-3 lits-1 salle de bain",
+        "prix": "129",
+        "description": "Il y a deux appartements au phare. Cet appartement est pour 4 personnes et il est situé du côté simple du 1er étage - se compose de : deux chambres, une avec lit double et une avec deux lits simples, une salle de bains, une cuisine avec coin repas, cuisinière, four, réfrigérateur et ustensiles de cuisine. Vous y trouverez également une terrasse commune. Il n'y a pas d'accès Wi-Fi.Toutes les fenêtres donnent sur la mer et les innombrables îles et îlots de Kornati.Le front de mer spacieux avec une grue de phare de bateau offre un espace pour bronzer, et l'entrée dans la mer est possible par des escaliers spéciaux."
+    },
+    "3":{
+        "titre" : "Maison Robinson <<La Vida>>",
+        "note" : "5,00",
+        "location" : "Murter, Šibenik-Knin County, Croatie",
+        "image" : "/img/4.webp",
+        "capacité": "4 voyageurs-1 chambre-2 lits-1 salle de bain",
+        "prix": "140",
+        "description": "Lorsque vous arrivez en bateau à Murter, il y a deux excellents restaurants de poissons en bord de mer, sur le chemin du centre. Le marché est à 100 mètres à pied dans la direction opposée. Il y a aussi la plage «Luke», un bar lounge, une aire de jeux pour enfants, une pizzeria. Le centre de plongée est situé juste en face de l'île, où l'île est la plus proche de Murter."
+    }
+}
