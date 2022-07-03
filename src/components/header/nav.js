@@ -7,9 +7,6 @@ function Nav() {
           <li>
             <Link to="/">home</Link>
           </li>
-          <li>
-            <Link to="/faq">FAQ</Link>
-          </li>
         </ul>
       </nav>
     </header>
