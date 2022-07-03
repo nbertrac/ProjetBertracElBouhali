@@ -36,12 +36,13 @@ export default function Navbar() {
         </div>
         <div className="topRight">
           <span className="topicons">1</span>
-
+     
           <img
             src="https://zupimages.net/up/22/14/s9dy.png"
             alt=""
             className="photoAccount"
           />
+          
         </div>
       </div>
     </div>

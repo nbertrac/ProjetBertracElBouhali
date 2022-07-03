@@ -1,12 +1,15 @@
 import React from "react";
 import "./Destination.css";
-export default function Destination({ cover, city, country, status, price }) {
+import datas from "../../data/destination.json"
+export default function Destination({data}) {
   return (
+    <div  className="CardDestination">
     <li>
-      <img className="" src={cover} alt="image destination" />
-      <p>{city + "," + country}</p>
-      <p>{status}</p>
-      <p>{price}€/Nuit</p>
+      <img className="imagedest" src={data.image} alt="image destination" /> 
+      <p>{data.location}</p>
+      <p>{data.prix}€/Nuit</p>
     </li>
+    </div>
+   
   );
 }
