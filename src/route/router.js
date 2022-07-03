@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-//Css (à faire)
+//Css
 import "../css/style.css";
 
-//Layout (à modifier?)
+//Layout
 import LayoutNav from "../layout/layoutNav";
 
-// 404 (a modifier)
+// 404
 import Lost from "./404";
 
-//Pages (à modifier)
+//Pages
 import Home from "../pages/home";
 import Faq from "../pages/faq";
 import Details from "../pages/details";
